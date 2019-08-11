@@ -1,0 +1,45 @@
+.bar {
+	background-color: Navy;
+	height: 60px;
+}
+
+#top_bar {
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	position: fixed;
+	top: 10px;
+	width: 100%;
+}
+
+
+.search_button {
+	height: 30px;
+	width: 30px;
+	margin: 15px;
+	background-color: Navy;
+	background: transparent;
+	border-color: Navy;
+	border-style: solid;
+}
+
+.search_image {
+	height: 30px;
+	width: 30px;
+	margin-left: -10px
+}
+
+.blog_title {
+	color: white;
+	text-align: center;
+	font-size: 24px;
+}
+
+.subscribe_button {
+	padding-left: 10px;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
